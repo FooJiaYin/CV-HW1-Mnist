@@ -1,0 +1,10 @@
+1: 0.91
+1 0.001: 0.90 (slow)
+1 squarelost: 0.92
+1 squarelost + constWB: 0.92
+1 constWB: 0.92
+2 dropout 0.99
+2 no dropout: 0.99 (overfit)
+2 no relu: 0.98
+2 5000 100: 0.99
+2 50000 10: 0.99
